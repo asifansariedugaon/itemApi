@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".PostItemActivity">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="170dp"
+        android:orientation="vertical"
+        tools:ignore="UselessParent">
+
+        <EditText
+            android:id="@+id/postName_editText"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:hint="@string/enter_name"
+            tools:ignore="Autofill,TextFields"/>
+
+        <EditText
+            android:id="@+id/postDescription_editText"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:hint="Description"
+            tools:ignore="Autofill,TextFields"/>
+
+        <EditText
+            android:id="@+id/postAmount_editText"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:hint="Enter Amount"
+            android:inputType="numberDecimal"
+            tools:ignore="Autofill,TextFields"/>
+
+        <EditText
+            android:id="@+id/postCurrency_editText"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:hint="Enter Currency"
+            tools:ignore="Autofill,TextFields" />
+
+
+
+        <Button
+            android:id="@+id/postBtn_button"
+            android:layout_width="150dp"
+            android:layout_height="60dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="15dp"
+            android:text="Post Data" />
+
+    </LinearLayout>
+</LinearLayout>

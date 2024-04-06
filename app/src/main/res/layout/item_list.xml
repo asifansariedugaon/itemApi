@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="165dp">
+
+        <RelativeLayout
+            android:layout_width="350dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="28dp"
+            android:layout_marginTop="20dp">
+
+            <TextView
+                android:id="@+id/itemId_textVIew"
+                android:layout_width="240dp"
+                android:layout_height="wrap_content"
+                android:text="Id" />
+
+            <TextView
+                android:id="@+id/itemName_textVIew"
+                android:layout_width="240dp"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/itemId_textVIew"
+                android:text="Name" />
+
+
+            <TextView
+                android:id="@+id/itemAmount_textVIew"
+                android:layout_width="240dp"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/itemName_textVIew"
+                android:text="Amount" />
+
+            <TextView
+                android:id="@+id/itemDescription_textVIew"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/itemAmount_textVIew"
+                android:text="Description" />
+
+            <TextView
+                android:id="@+id/itemType_textVIew"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/itemDescription_textVIew"
+                android:text="Type" />
+
+            <TextView
+                android:id="@+id/itemCreated_textVIew"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/itemType_textVIew"
+                android:text="Created At" />
+
+            <TextView
+                android:id="@+id/itemCurrency_textVIew"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/itemCreated_textVIew"
+                android:text="Currency" />
+
+        </RelativeLayout>
+
+
+    </androidx.cardview.widget.CardView>
+</RelativeLayout>
